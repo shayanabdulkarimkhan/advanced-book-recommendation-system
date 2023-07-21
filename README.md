@@ -180,4 +180,5 @@ To reproduce this notebook, please follow the following steps:
 ├── notebook.ipynb
 ├── Stakeholder_Presentation.pptx
 ├── books-api-data.ipynb
+├── requirements.txt
 └── README.md
