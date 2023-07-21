@@ -1,11 +1,11 @@
-# What to Read Next?: A Book Recommendation System
+# What to Read Next?: A Book Recommendation System Ready With The Answer
 
 On average people in the US read only 4 books every year. Enthusiasts usually describe decision paralysis of choosing a good book or lack of time to go to a bookstore and research books. Book of the Quarter is set out to make fiding books a lot simpler and effecient through a quaraterly book subscribtion system. In this project, we build a recommendation system for book recommendations using Book-Crossing Communnity and Google Books API dataset. Our model is able to predict user ratings within 0.5-0.7 ratings point on a scale of 1-5. These ratings are subsequently used to select to provide recommendations for different use cases.
 
 ![Book of The Quarter Logo](pics/readme_header_image.png)
 
 ## Problem Overview
-Book of the Quarter wants to dtart a quarterly book care package subscribtion service where 5 books will be deliveredto the User and the user can keep aas many aaas they desire and will be chaarged accordingly. Book of the Quarter needs  recommendation system that will be able to recommend books that the users will be inclined to keep so that the revenues and user retention stay high. The want to be able to handle three different scenarios:
+Book of the Quarter wants to start a quarterly book care package subscribtion service where 5 books will be deliveredto the User and the user can keep aas many aaas they desire and will be chaarged accordingly. Book of the Quarter needs  recommendation system that will be able to recommend books that the users will be inclined to keep so that the revenues and user retention stay high. The want to be able to handle three different scenarios:
 
 1. Current User or user whose demographic and user-book interactions data is available
 2. New User whose use demographic information is available but user-book interaction data is not available
@@ -154,9 +154,9 @@ The recommendation system provides valuable recommendations but needs improvemen
 ## Repository Navigation
 Please use the following links to access relevant files:
 
-1. Click [here](books-api-data.ipynb) to see the full analysis
+1. Click [here](notebook.ipynb) to see the full analysis
 
-2. Click [here](books-api-data.ipynb) to see the overview presentation.
+2. Click [here](Stakeholder_Presentation.pptx) to see the overview presentation.
 
 All the pictures in the ReadMe can be found in the pics folder.
 
@@ -166,35 +166,18 @@ The pdfs of the presentation, notebook and GitHub repo is stored in the pdfs fol
 
 To reproduce this notebook, please follow the following steps:
 
-1. Use the requirements.txt file to ensure that you are operating all the correct libraries
+1. Use the file [here](requirements.txt) to ensure that you are operating all the correct libraries
 
 2. Use the data source links provided above in the Data Sources section to extract the dataa and store it in a folder labelled 'data'
 
-3. Use books-api-data.ipynb to extract information from the Google Books API.
+3. Use books-api-data.ipynb which can be found [here](books-api-data.ipynb) to extract information from the Google Books API.
 
 4. Run the code!
 
 ```
-
 ├── pdfs
 ├── pics
 ├── notebook.ipynb
 ├── Stakeholder_Presentation.pptx
 ├── books-api-data.ipynb
 └── README.md
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
