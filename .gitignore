@@ -6,6 +6,7 @@ __pycache__/
 # C extensions
 *.so
 
+.DS_Store
 # Distribution / packaging
 .Python
 build/
@@ -62,7 +63,7 @@ cover/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
-book_api_df.csv
+
 # Flask stuff:
 instance/
 .webassets-cache
